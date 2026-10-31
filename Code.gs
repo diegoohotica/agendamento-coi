@@ -17,7 +17,7 @@ var CFG = {
     1: { n: 'Dra. Maria Odette',          s: 480, e: 940, p: 10, almoco: [690, 780] },
     4: { n: 'Dr. Antonio Carlos Hallais', s: 840, e: 960, p: 15, almoco: null },
     5: { n: 'Dra. Maria Estephania',      s: 480, e: 990, p: 15, almoco: [720, 780] },
-    6: { n: 'Dr. Luis Fernando',          s: 480, e: 690, p: 15, almoco: null }
+    6: { n: 'Dr. Luis Fernando',          s: 480, e: 660, p: 15, almoco: null }
   },
   TIPOS: ['Particular', 'Unimed', 'Bradesco', 'APPAI', 'SulAmérica', 'Revisão']
 };

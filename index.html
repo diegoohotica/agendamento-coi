@@ -246,7 +246,7 @@ input[type=text],input[type=tel],input[type=date]{width:100%;font:inherit;color:
       <article class="dc"><div class="av">MO</div><h3>Dra. Maria Odette</h3><p class="day">Segundas-feiras</p><p class="hr">8h às 15h40 · consultas a cada 10 minutos</p><p class="cv">Particular, Revisão, Bradesco, APPAI e SulAmérica</p></article>
       <article class="dc"><div class="av">AH</div><h3>Dr. Antonio Carlos Hallais</h3><p class="day">Quintas-feiras</p><p class="hr">14h às 16h · consultas a cada 15 minutos</p><p class="cv">Particular, Revisão e Unimed</p></article>
       <article class="dc"><div class="av">ME</div><h3>Dra. Maria Estephania</h3><p class="day">Sextas-feiras</p><p class="hr">8h às 16h30 · consultas a cada 15 minutos</p><p class="cv">Particular, Revisão e Unimed</p></article>
-      <article class="dc"><div class="av">LF</div><h3>Dr. Luis Fernando</h3><p class="day">Sábados</p><p class="hr">8h às 11h30 · consultas a cada 15 minutos</p><p class="cv">Particular, Revisão e Unimed</p></article>
+      <article class="dc"><div class="av">LF</div><h3>Dr. Luis Fernando</h3><p class="day">Sábados</p><p class="hr">8h às 11h · consultas a cada 15 minutos</p><p class="cv">Particular, Revisão e Unimed</p></article>
     </div>
   </div>
 </section>
@@ -309,7 +309,7 @@ input[type=text],input[type=tel],input[type=date]{width:100%;font:inherit;color:
           <li><span>Segunda</span><b>8h às 15h40</b></li>
           <li><span>Quinta</span><b>14h às 16h</b></li>
           <li><span>Sexta</span><b>8h às 16h30</b></li>
-          <li><span>Sábado</span><b>8h às 11h30</b></li>
+          <li><span>Sábado</span><b>8h às 11h</b></li>
         </ul>
         <p class="mut" style="margin-top:10px;font-size:14px">Terça e quarta: sem atendimento. Domingo: fechado.</p>
       </div>
@@ -340,7 +340,7 @@ input[type=text],input[type=tel],input[type=date]{width:100%;font:inherit;color:
   <div class="wrap">
     <div><b>COI - Centro Oftalmológico Itaipuaçu</b><p>Av. Carlos Marighella, 8384, sala 307<br>Shopping Barroco, Itaipuaçu, Maricá, RJ<br>CEP 24936-435</p></div>
     <div><b>Contato</b><a href="https://wa.me/5521993984361" target="_blank" rel="noopener">WhatsApp (21) 99398-4361</a><a href="https://www.instagram.com/coi.itaipuacu/" target="_blank" rel="noopener">Instagram @coi.itaipuacu</a><a href="painel.html" rel="nofollow">Área da recepção</a></div>
-    <div><b>Horário de funcionamento</b><p>Segunda: 8h às 15h40<br>Quinta: 14h às 16h<br>Sexta: 8h às 16h30<br>Sábado: 8h às 11h30</p></div>
+    <div><b>Horário de funcionamento</b><p>Segunda: 8h às 15h40<br>Quinta: 14h às 16h<br>Sexta: 8h às 16h30<br>Sábado: 8h às 11h</p></div>
     <p class="fine">Seu nome e telefone são usados apenas para registrar e confirmar a consulta.</p>
   </div>
 </footer>
@@ -356,7 +356,7 @@ input[type=text],input[type=tel],input[type=date]{width:100%;font:inherit;color:
   var API="https://script.google.com/macros/s/AKfycbwKpQxU8YSMSjm_XHEzMGJb64BtF4BQ1pBg9THFT48NO-Fpy4bMIJbLV54eSKToc0tL-A/exec", live=API.indexOf("https://")===0;
   var $=function(id){return document.getElementById(id)};
   var WD=["dom","seg","ter","qua","qui","sex","sáb"],MES=["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
-  var DOC={1:{n:"Dra. Maria Odette",s:480,e:940,p:10},4:{n:"Dr. Antonio Carlos Hallais",s:840,e:960,p:15},5:{n:"Dra. Maria Estephania",s:480,e:990,p:15},6:{n:"Dr. Luis Fernando",s:480,e:690,p:15}};
+  var DOC={1:{n:"Dra. Maria Odette",s:480,e:940,p:10},4:{n:"Dr. Antonio Carlos Hallais",s:840,e:960,p:15},5:{n:"Dra. Maria Estephania",s:480,e:990,p:15},6:{n:"Dr. Luis Fernando",s:480,e:660,p:15}};
   var carregado=!live,ABERTOS=null,FINS={};
   try{var gc=JSON.parse(localStorage.getItem("coi-ocup2")||"null");if(live&&gc&&gc.a&&Date.now()-gc.t<604800000){ABERTOS=gc.a;FINS=gc.f||{};var OCUP0=gc.o}}catch(e){}
   var OCUP=live?(typeof OCUP0!=="undefined"?OCUP0:{}):{"2026-10-26":["08:00","08:10","08:20","08:30","08:40","09:00","09:10","09:20","09:30","09:40","10:00","10:20","10:30","10:40","10:50","11:00","11:10","13:30","13:40","13:50","14:00","14:10","14:30","14:40"]};
